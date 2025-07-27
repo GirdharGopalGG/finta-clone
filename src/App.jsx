@@ -1,12 +1,12 @@
-import Navbar from './components/Navbar';
+import { Container } from "./components/Container";
+import {Navbar} from "./components/Navbar"
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="pt-20 text-center">
-        <h1 className="text-4xl font-bold">Welcome to Finta Clone</h1>
-      </div>
+      <Container>
+        <Navbar/>
+      </Container>
     </>
   );
 }
